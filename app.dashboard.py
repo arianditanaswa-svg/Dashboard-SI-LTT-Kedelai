@@ -73,7 +73,7 @@ st.markdown("""
 # 2. MASTER KOORDINAT PROVINSI INDONESIA
 # ---------------------------------------------------------
 PROVINSI_COORDS = {
-    'ACEH': (-4.6951, 96.7494),
+    'ACEH': (4.6951, 96.7494),
     'SUMATERA UTARA': (2.1154, 99.5451),
     'SUMATERA BARAT': (-0.7399, 100.8000),
     'RIAU': (0.2933, 101.7068),
