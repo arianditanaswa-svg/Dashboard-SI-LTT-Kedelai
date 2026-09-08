@@ -15,54 +15,58 @@ st.set_page_config(
 
 st.markdown("""
     <style>
+    /* Background Utama App */
     .stApp {
-        background-color: #0f172a !important;
-        color: #f8fafc !important;
+        background-color: #062319 !important; /* Hijau Botol/Gelap */
+        color: #ecfdf5 !important;
         font-family: 'Inter', -apple-system, sans-serif;
     }
+    /* Header Utama */
     .main-header {
-        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        background: linear-gradient(135deg, #0d3b2e 0%, #062319 100%);
         color: #ffffff;
         padding: 22px 26px;
         border-radius: 12px;
         margin-bottom: 24px;
-        border: 1px solid #334155;
+        border: 1px solid #165b46;
     }
+    /* Kartu KPI Ringkasan */
     .kpi-card {
-        background-color: #1e293b;
+        background-color: #0d3b2e;
         border-radius: 12px;
         padding: 18px;
-        border: 1px solid #334155;
+        border: 1px solid #165b46;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
     }
     .kpi-label {
-        color: #94a3b8 !important;
+        color: #a7f3d0 !important;
         font-size: 0.8rem;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.5px;
     }
     .kpi-val {
-        color: #38bdf8 !important;
+        color: #34d399 !important; /* Hijau Terang */
         font-size: 1.8rem;
         font-weight: 800;
         margin: 4px 0;
     }
     .kpi-sub {
         font-size: 0.82rem;
-        color: #34d399 !important;
+        color: #6ee7b7 !important;
         font-weight: 600;
     }
+    /* Box Grafik / Konten */
     .card-box {
-        background-color: #1e293b;
+        background-color: #0d3b2e;
         border-radius: 12px;
         padding: 20px;
-        border: 1px solid #334155;
+        border: 1px solid #165b46;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
         margin-bottom: 20px;
     }
     .card-box h3, .card-box h4, .card-box p, .card-box span {
-        color: #f1f5f9 !important;
+        color: #ecfdf5 !important;
     }
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
